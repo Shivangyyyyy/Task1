@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.blue-bg {
+	background-color: #194BFB;
+}
+
+.white-bg h2 {
+	text-align: center;
+	margin-top: 78px;
+}
+
+.white-bg p {
+	text-align: center;
+	position: relative;
+	margin-top: 27px;
+}
+
+.sign-google {
+    border-radius: 12px;
+    width: 427px;
+    border: 1px solid #E2E8F0;
+    height: 56px;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+}
+
+.sign-google:hover {
+	border: 1px solid #194BFB;
+}
+
+
+.white-center {
+	text-align: center;
+}
+
+.beaf:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 150px;
+    background-color: #E2E8F0;
+    position: absolute;
+    top: 14px;
+    left: 100px;
+}
+
+.beaf:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 150px;
+    background-color: #E2E8F0;
+    position: absolute;
+    top: 14px;
+    right: 100px;
+}
+
+.white-center input[type="text"] {
+    border-radius: 12px;
+    width: 427px;
+    border: 1px solid #E2E8F0;
+    height: 56px;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+    outline: none;	
+    padding: 0 10px;
+}
+
+.white-center input[type="password"] {
+    border-radius: 12px;
+    width: 427px;
+    border: 1px solid #E2E8F0;
+    height: 56px;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+    outline: none;
+    padding: 0 10px;	
+}
+
+.main-page {
+	padding: 10px 0 0 0;
+}
+
+.remember-btn label {
+	margin-right: 60px;
+}
+
+.remember-btn a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.sign-in {
+	border-radius: 12px;
+    width: 427px;
+    border: 2px solid #194BFB;
+    height: 56px;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+    outline: none;
+    background-color: #194BFB;
+    color: #fff;	
+}
+
+.sign-in:hover {
+	background-color: transparent;
+	color: #194BFB;
+}
+
+.sign-up {
+	color: #000;
+}
+
+.sign-up a {
+	color: #000;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.main-bottom .privacy {
+	width: 50%;
+}
+
+.main-bottom .copyright {
+	width: 50%;
+	display: flex;
+	align-content: center;
+	justify-content: flex-end;
+}
+
+.copyright p {
+	margin-top: 0;
+}
+
+.main-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.blue-bg .white-center {
+	text-align: center;
+	position: relative;
+}
+
+.right-img figure img {
+	top: 37px;
+    position: absolute;
+    left: 216px;
+    z-index: 999;
+}
+
+.left-img figure img {
+    position: absolute;
+    left: -100px;
+    bottom: 29px;
+}
+
+.remember-btn {
+	margin: 33px 0;
+}
+
+.blue-bg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

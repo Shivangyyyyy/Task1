@@ -1,6 +1,7 @@
 import React from 'react'
 import './FirstStyle.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
 const First = () => {
   return (
     <div>
@@ -23,17 +24,17 @@ const First = () => {
                 </button>
                 <p class="beaf">Or with email</p>
                 <input type="text" name="username" placeholder="Username or email" class="mt-3 mb-3" />
-                <input type="password" name="pwd" placeholder="Password" />
-
+                <input type="password" name="pwd" placeholder=" Create Password" />
+                <input type="password" name="pwd" placeholder=" Confirm Password" />
                 <div class="remember-btn">
                     <label>
                       <input type="radio" name="remember" />
                       Remember me
                     </label>
-                    <a href="#">Forgot Password?</a>
+
                 </div>
                 <button class="sign-in">Sign In</button>
-                <p class="sign-up">Don’t have an account? <a href="#">Sign Up</a></p>
+                <p class="sign-up">Already have an account?<Link to="/signup"> Login</Link></p>
               </div>
               <div class="main-bottom">
                 <div class="privacy"><a href="#">Privacy Policy</a></div>
